@@ -2,7 +2,7 @@
 
 A real-time, multilingual translation application designed specifically for healthcare communication between patients and healthcare providers. This application converts spoken input into text, provides live transcription, and offers translated versions with audio playback.
 
-## 🚀 Features
+## Features
 
 ### Core Functionalities
 - **Voice-to-Text with AI Enhancement**: Real-time speech recognition with enhanced accuracy for medical terminology
@@ -23,7 +23,7 @@ A real-time, multilingual translation application designed specifically for heal
 - **Rate Limiting**: Built-in protection against API rate limits
 - **Error Handling**: Comprehensive error management and user feedback
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: Next.js 15.5.0 with React 19
 - **Styling**: Tailwind CSS 4
@@ -32,13 +32,13 @@ A real-time, multilingual translation application designed specifically for heal
 - **Speech Synthesis**: Web Speech Synthesis API
 - **Deployment**: Vercel-ready
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js (version 18 or higher)
 - OpenAI API key with available credits
 - Modern browser with Web Speech API support (Chrome, Safari, Edge)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone and Install
 ```bash
@@ -66,7 +66,7 @@ npm run dev
 ### 4. Access the Application
 Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## 🎯 How to Use
+## How to Use
 
 1. **Select Languages**: Choose your input (voice) and output (translation) languages
 2. **Start Recording**: Click the "Start Recording" button and speak clearly
@@ -75,7 +75,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser
 5. **Listen**: Use the "Speak" button to hear the translated text
 6. **Review History**: All translations are saved with timestamps
 
-## 🌐 Supported Languages
+## Supported Languages
 
 ### Input Languages (Voice Recognition)
 - English (US)
@@ -105,7 +105,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser
 - Arabic
 - Hindi
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 - `OPENAI_API_KEY`: Your OpenAI API key (required)
@@ -114,7 +114,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser
 - Default: 10 requests per minute per IP
 - Configurable in `app/api/Translate/route.ts`
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel Deployment
 1. Push your code to GitHub
@@ -129,7 +129,7 @@ The app is compatible with any platform that supports Next.js:
 - DigitalOcean App Platform
 - AWS Amplify
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 ### Data Privacy
 - No audio data is stored on servers
@@ -142,7 +142,7 @@ The app is compatible with any platform that supports Next.js:
 - Consider implementing additional security measures for production
 - Ensure compliance with local healthcare data regulations
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -170,7 +170,7 @@ The app is compatible with any platform that supports Next.js:
 - **Firefox**: Limited speech recognition support
 - **Edge**: Full support
 
-## 📱 Mobile Optimization
+## Mobile Optimization
 
 The application is fully responsive and optimized for mobile devices:
 - Touch-friendly interface
@@ -178,7 +178,7 @@ The application is fully responsive and optimized for mobile devices:
 - Responsive layout
 - Mobile-optimized speech recognition
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Offline translation capabilities
 - [ ] Custom medical terminology dictionaries
@@ -188,11 +188,11 @@ The application is fully responsive and optimized for mobile devices:
 - [ ] Real-time conversation mode
 - [ ] Export functionality for medical records
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -200,7 +200,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 4. Test thoroughly
 5. Submit a pull request
 
-## 📞 Support
+## Support
 
 For support or questions:
 - Create an issue in the repository
